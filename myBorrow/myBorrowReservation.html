@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>마이페이지 - 대여예약</title>
+    <meta name="description" content="회원정보 및 올린 글등을 확인 가능하다.">
+    <link rel= "stylesheet" type="text/css" href="../CSS/topMenuandSidebar.css">
+    <link rel= "stylesheet" type="text/css" href="../CSS/myPage.css">
+    <link rel= "stylesheet" type="text/css" href="../CSS/myBorrow.css">
+</head>
+
+<body>
+<header>
+    <div id = "logo"><a href = "../main/select.html"><img src = "https://ifh.cc/g/YplJqm.png" height = "50" alt="중앙대학교 로고"></a></div>
+    <nav>
+        <div id = "topMenu">
+            <li>김청룡님 안녕하세요!</li>
+            <li><a href = "../myLostandFound/myLostandFoundUpload.html">마이페이지</a></li>
+            <li>로그아웃</li>
+        </div>
+    </nav>
+</header>
+
+<div id="sidebar">
+    <li class="group">
+        <div class="title">분실물 찾기</div>
+        <ul class="sub">
+            <li><a href="../lostandFound/lostandFoundMain.html">분실물 목록</a></li>
+            <li><a href="../lostandFound/lostandFoundUpload.html">분실물 등록</a></li>
+        </ul>
+    </li>
+    <li class="group">
+        <div class="title">물품 대여하기</div>
+        <ul class="sub">
+            <li><a href="#">대여품 목록</a></li>
+            <li><a href="myBorrowRecord.html">대여품 확인</a></li>
+        </ul>
+    </li>
+</div>
+
+<div id="info">
+    <table class="info">
+        <thead>
+        <tr>
+            <th class="info-baqh">학번</th>
+            <th class="info-baqh">20192020</th>
+            <th class="info-baqh">소속 (학과)</th>
+            <th class="info-baqh">소프트웨어대학</th>
+            <th class="info-baqh">학년 (가진급학년)</th>
+            <th class="info-baqh">2 (2)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="info-baqh">성명</td>
+            <td class="info-baqh">김청룡</td>
+            <td class="info-baqh">전공 (프로그램명)</td>
+            <td class="info-baqh">소프트웨어</td>
+            <td class="info-baqh">성별 / 재학상태</td>
+            <td class="info-baqh">남 / 재학</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="board">
+    <div id="selectBig">
+        <li><a href="../myLostandFound/myLostandFoundUpload.html">분실물 관리사업</a></li>
+        <li class="selected"><a href="myBorrowRecord.html">물품 대여사업</a></li>
+    </div>
+
+    <div id="box">
+        <div id="selectSmall">
+            <li><a href="myBorrowRecord.html">대여 기록</a></li>
+            <li class="selected"><a href="myBorrowReservation.html">예약 완료</a> </li>
+            <li><a href="myBorrowOverdue.html">연체 내역</a></li>
+        </div>
+
+        <div id="uploadBoard">
+            <li>총학생회 | 사회과학대학 | 문헌정보학과</li>
+            <div id="reserve1">
+                <table>
+                    <tr>
+                        <th rowspan="3"><a href ="#"><img src = "https://ifh.cc/g/tW0UGW.png" height = 150px width = 200px alt="우산 사진"></a></th>
+                        <td>대여 물품: 우산</td>
+                    </tr>
+                    <tr><td>번호: 2</td></tr>
+                    <tr><td>반납 예정 일자: 2020. XX. XX</td></tr>
+                </table>
+            </div>
+            <br>
+
+            <li>총학생회</li>
+            <div id="reserve2">
+                <table>
+                    <tr>
+                        <th rowspan="3"><a href ="#"><img src = "https://ifh.cc/g/kGsfck.jpg" height = 150px width = 200px alt="보조배터리 사진"></a></th>
+                        <td>대여 물품: 보조배터리</td>
+                    </tr>
+                    <tr><td>번호: 13</td></tr>
+                    <tr><td>반납 예정 일자: 2020. 00. 00</td></tr>
+                </table>
+            </div>
+            <br>
+
+            <li>총학생회 | 사회과학대학</li>
+            <div id="reserve3">
+                <table>
+                    <tr>
+                        <th rowspan="3"><a href ="#"><img src = "https://ifh.cc/g/zVqRC4.jpg" height = 150px width = 200px alt="슬리퍼 사진"></a></th>
+                        <td>대여 물품: 슬리퍼</td>
+                    </tr>
+                    <tr><td>번호: 8</td></tr>
+                    <tr><td>반납 예정 일자: 2020. %%. %%</td></tr>
+                </table>
+            </div>
+            <br>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+</body>
+</html>

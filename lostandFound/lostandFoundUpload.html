@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>분실물 업로드</title>
+    <meta name="description" content="찾은 분실물을 업로드한다.">
+    <link rel= "stylesheet" type="text/css" href="../CSS/topMenuandSidebar.css">
+    <link rel= "stylesheet" type="text/css" href="../CSS/lostandFound.css">
+</head>
+
+<body>
+<header>
+    <div id = "logo"><a href = "../main/select.html"><img src = "https://ifh.cc/g/YplJqm.png" height = "50" alt="중앙대학교 로고"></a></div>
+    <nav>
+        <div id = "topMenu">
+            <li>김청룡님 안녕하세요!</li>
+            <li><a href = "../myLostandFound/myLostandFoundUpload.html">마이페이지</a></li>
+            <li>로그아웃</li>
+        </div>
+    </nav>
+</header>
+
+<div id="sidebar">
+    <li class="group">
+        <div class="title">분실물 찾기</div>
+        <ul class="sub">
+            <li><a href="lostandFoundMain.html">분실물 목록</a></li>
+            <li><a href="lostandFoundUpload.html">분실물 등록</a></li>
+        </ul>
+    </li>
+    <li class="group">
+        <div class="title">물품 대여하기</div>
+        <ul class="sub">
+            <li><a href="#">대여품 목록</a></li>
+            <li><a href="../myBorrow/myBorrowRecord.html">대여품 확인</a></li>
+        </ul>
+    </li>
+</div>
+
+<div id="board">
+    <div id="selectBig">
+        <li>분실물 관리</li>
+    </div>
+
+    <div id="box">
+        <div id="found">
+            <button type = "button" class="buttonExit" onClick="location.href = 'lostandFoundMain.html'">X</button>
+            <table>
+                <tr>
+                    <td class = "image"><img src="https://ifh.cc/g/a0YwO5.jpg" height = 200px width = 200px alt = "분실물 사진"></td>
+                    <td class = "fileUpload"><input type="file" name="reviewImg" id="reviewImageFileOpenInput" accept="image/*"></td>
+                </tr>
+                <tr>
+                    <td class="writeInfo">물건 종류:</td>
+                    <td><input class = "writeInfo" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="writeInfo">발견 장소:</td>
+                    <td><input class = "writeInfo" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="writeInfo">발견 일시:</td>
+                    <td><input class = "writeInfo" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="writeInfo">특징:</td>
+                    <td><input class = "writeInfo" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="writeInfo">위탁 장소:</td>
+                    <td><input class = "writeInfo" type="text" placeholder="물건을 직접 보관하실 경우 입력해주세요. (예: 전화번호, 카톡 아이디 등)"></td>
+                </tr>
+                <tr>
+                    <td class="writeInfo">기타:</td>
+                    <td><input class = "writeInfo" type="text" placeholder="그 외 내용을 적어주세요."></td>
+                </tr>
+            </table>
+        </div>
+
+        <button type = "button" class="buttonEnroll" onClick="location.href = 'lostandFoundMain.html'">등록</button>
+
+    </div>
+
+
+    </div>
+
+</body>
+</html>

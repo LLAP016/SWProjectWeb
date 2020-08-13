@@ -1,0 +1,17 @@
+
+#left{
+    width: 50%;
+    height: 100%;
+    float:left;
+
+    text-align: right;
+}
+
+#right{
+    width: 40%;
+    height: 100%;
+    float: left;
+
+    text-align: center;
+}
+

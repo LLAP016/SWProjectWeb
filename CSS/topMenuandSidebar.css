@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin:20px auto;
+    padding-top: 75px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 50px;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    background: #F6F6F6;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topMenu li{
+    list-style: none;
+    color: black;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 50px 0 0;
+}
+
+#topMenu li a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#topMenu li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar{
+    float:left;
+    padding: 100px 20px 0 20px;
+    height: 100%;
+    width: 13%;
+    text-indent: 10px;
+    list-style:none;
+}
+
+#sidebar ul {
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+
+#sidebar li.group{
+    margin-bottom: 30px;
+}
+
+#sidebar li.group div.title{
+    clear:both;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 2px;
+    background:white;
+    border: 1px solid #EAEAEA;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#sidebar li.group li{
+    clear:both;
+    margin-bottom: 2px;
+    height:35px;
+    line-height:35px;
+    background:#F0F2F7;
+    font-size:0.9em;
+    cursor:pointer;
+}
+
+#sidebar li.group li a{
+    display: block;
+    width: 100%;
+    height:100%;
+    text-decoration:none;
+    color:black;
+}
+
+
+

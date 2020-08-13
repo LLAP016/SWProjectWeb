@@ -1,0 +1,97 @@
+
+
+#lost1{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#lost1 td{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#lost2{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#lost2 td{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#lost3{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#lost3 td{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#DM1 {
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#DM1 td{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#DM1 td.nickname{
+    padding-right: 400px;
+}
+
+#DM2 {
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#DM2 td{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#DM2 td.nickname{
+    padding-right: 370px;
+}
+
+#DM3 {
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#DM3 td{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#DM3 td.nickname{
+    padding-right: 280px;
+}

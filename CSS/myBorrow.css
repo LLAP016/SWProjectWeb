@@ -1,0 +1,129 @@
+#uploadBoard{
+    width: 85%;
+    height: 85%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+
+    list-style-type: none;
+    font-size: 12pt;
+
+}
+
+#uploadBoard li{
+    margin-bottom: 10px;
+}
+
+#borrow1{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#borrow1 td{
+    font-size: 13px;
+    padding:10px 5px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#borrow2{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#borrow2 td{
+    font-size: 13px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#borrow3{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#borrow3 td{
+    font-size: 13px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#reserve1{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#reserve1 td{
+    font-size: 14px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#reserve2{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#reserve2 td{
+    font-size: 14px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#reserve3{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#reserve3 td{
+    font-size: 14px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#overdue1{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#overdue1 td{
+    font-size: 14px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+
+#overdue2{
+    padding: 15px;
+    border:2px solid;
+    width: 85%;
+    margin-right:auto;
+}
+
+#overdue2 td{
+    font-size: 14px;
+    overflow:hidden;
+    word-break:normal;
+    background-color: rgba(0,0,0,0);
+}
+

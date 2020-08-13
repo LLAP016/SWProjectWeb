@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>분실물 목록</title>
+    <meta name="description" content="분실물 목록 확인 가능하다.">
+    <link rel= "stylesheet" type="text/css" href="../CSS/topMenuandSidebar.css">
+    <link rel= "stylesheet" type="text/css" href="../CSS/lostandFound.css">
+    <link rel= "stylesheet" type="text/css" href="../CSS/myLostandFound.css">
+</head>
+
+<body>
+<header>
+    <div id = "logo"><a href = "../main/select.html"><img src = "https://ifh.cc/g/YplJqm.png" height = "50" alt="중앙대학교 로고"></a></div>
+    <nav>
+        <div id = "topMenu">
+            <li>김청룡님 안녕하세요!</li>
+            <li><a href = "../myLostandFound/myLostandFoundUpload.html">마이페이지</a></li>
+            <li>로그아웃</li>
+        </div>
+    </nav>
+</header>
+
+<div id="sidebar">
+    <li class="group">
+        <div class="title">분실물 찾기</div>
+        <ul class="sub">
+            <li><a href="lostandFoundMain.html">분실물 목록</a></li>
+            <li><a href="lostandFoundUpload.html">분실물 등록</a></li>
+        </ul>
+    </li>
+    <li class="group">
+        <div class="title">물품 대여하기</div>
+        <ul class="sub">
+            <li><a href="#">대여품 목록</a></li>
+            <li><a href="../myBorrow/myBorrowRecord.html">대여품 확인</a></li>
+        </ul>
+    </li>
+</div>
+
+<div id="board">
+    <div id="selectBig">
+        <li>분실물 관리</li>
+    </div>
+
+    <div id="box">
+        <br>
+        <div id="search">
+            <label>
+                <input class = "search" type="text" placeholder="검색어를 입력해주세요.">
+            </label>
+            <button class="buttonSearch">검색</button>
+        </div>
+        <br>
+        <button type = "button" class="buttonLost" onClick="location.href = 'lostandFoundUpload.html'">분실물 등록하기</button>
+        <br>
+        <br>
+
+        <div id="upload">
+
+            <div id="lost1">
+                <table>
+                    <tr>
+                        <th rowspan="3"><a href ="#"><img src = "https://ifh.cc/g/a0YwO5.jpg" height = 150px alt="마우스 사진"></a></th>
+                        <td>물건 종류: 마우스</td>
+                    </tr>
+                    <tr><td>분실 장소: 310관 721호 강의실 앞</td></tr>
+                    <tr><td>분실 일시: 2020년 X월 XX일</td></tr>
+                </table>
+            </div>
+
+            <br>
+
+            <div id="lost2">
+                <table>
+                    <tr>
+                        <th rowspan="3"><a href ="#"><img src = "https://ifh.cc/g/wTg2sQ.jpg" height = 150px alt="머리끈 사진"></a></th>
+                        <td>물건 종류: 머리끈</td>
+                    </tr>
+                    <tr><td>분실 장소: 청룡탕 앞 벤치, 오른쪽에 있는 곳</td></tr>
+                    <tr><td>분실 일시: 2020년 0월 00일</td></tr>
+                </table>
+            </div>
+
+            <br>
+
+            <div id="lost3">
+                <table>
+                    <tr>
+                        <th rowspan="3"><a href ="#"><img src = "https://ifh.cc/g/r23DxE.jpg" height = 150px width = "200px" alt="이어폰 사진"></a></th>
+                        <td>물건 종류: 이어폰</td>
+                    </tr>
+                    <tr><td>분실 장소: 309관 기숙사 식당 근처 (정확하지 않음)</td></tr>
+                    <tr><td>분실 일시: 2020년 □월 □□일</td></tr>
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    </div>
+
+</body>
+</html>
